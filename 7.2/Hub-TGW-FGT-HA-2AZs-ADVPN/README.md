@@ -30,7 +30,7 @@ To enable such a scenario, two Transit Gateway Route Tables are created.  One Ro
 
 ## Diagram solution
 
-![FortiGate reference architecture overview](images/HubAWS-ADVPN-HA-2AZs.png)
+![FortiGate reference architecture overview](images/Hub-TGW-ADVPN-HA-2AZs.png)
 
 ## Deployment
 * Clone the repository.
@@ -72,9 +72,8 @@ $ terraform destroy
 ```
 
 # Support
-Fortinet-provided scripts in this and other GitHub projects do not fall under the regular Fortinet technical support scope and are not supported by FortiCare Support Services.
-For direct issues, please refer to the [Issues](https://github.com/fortinet/fortigate-terraform-deploy/issues) tab of this GitHub project.
-For other questions related to this project, contact [github@fortinet.com](mailto:github@fortinet.com).
+This a personal repository with goal of testing and demo Fortinet solutions on the Cloud. No support is provided and must be used by your own responsability. Cloud Providers will charge for this deployments, please take it in count before proceed.
 
 ## License
-[License](https://github.com/fortinet/fortigate-terraform-deploy/blob/master/LICENSE) © Fortinet Technologies. All rights reserved.
+Based on Fortinet repositories with original [License](https://github.com/fortinet/fortigate-terraform-deploy/blob/master/LICENSE) © Fortinet Technologies. All rights reserved.
+
